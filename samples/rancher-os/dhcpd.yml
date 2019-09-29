@@ -1,0 +1,5 @@
+dhcpd:
+  image: lotusrootjp/dhcpd:alpine-3
+  net: host
+  volumes:
+    - /var/lib/rancher/conf/dhcp/dhcpd.conf:/etc/dhcp/dhcpd.conf
