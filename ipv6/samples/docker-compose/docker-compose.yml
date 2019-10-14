@@ -6,4 +6,3 @@ services:
     network_mode: host
     volumes:
       - /root/dhcp/dhcpd.conf:/etc/dhcp/dhcpd.conf
-    command: ["-6", "-f", "-d", "--no-pid"]
